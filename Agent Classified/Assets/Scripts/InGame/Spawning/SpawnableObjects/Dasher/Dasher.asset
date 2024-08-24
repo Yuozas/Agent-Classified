@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2183276e48e30b47a7b9cdde8193b6d, type: 3}
+  m_Name: Dasher
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 9102881061116160285, guid: 3be050d8a089db9459041236f78369a7, type: 3}
+  prefabName: Dasher
+  mortal: 1
+  despawnable: 1
+  despawnTime: 2
+  health: 1
+  spawnCooldown: 5
+  spawnChance: 50
+  currentlySpawned: 0
+  spawnableSlots:
+  - {fileID: 0}
+  onCooldown: 0
+  spawnRange:
+    min: 5
+    max: 100
+  coin: 2

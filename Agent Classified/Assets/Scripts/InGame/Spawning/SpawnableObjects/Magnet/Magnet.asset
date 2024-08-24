@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2183276e48e30b47a7b9cdde8193b6d, type: 3}
+  m_Name: Magnet
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 4900016419197987202, guid: e464f9cfa99368c4694e94ec5e1da670, type: 3}
+  prefabName: Magnet
+  mortal: 1
+  despawnable: 0
+  despawnTime: 0
+  health: 10
+  spawnCooldown: 10
+  spawnChance: 50
+  currentlySpawned: 0
+  spawnableSlots:
+  - {fileID: 0}
+  onCooldown: 1
+  spawnRange:
+    min: 2
+    max: 100
+  coin: 1
